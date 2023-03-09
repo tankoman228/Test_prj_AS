@@ -30,4 +30,14 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <TextView
+        android:id="@+id/textMsg"
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:autoText="false"
+        android:text="TextView"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="77dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
