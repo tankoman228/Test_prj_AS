@@ -22,10 +22,13 @@ public class MainActivity extends AppCompatActivity {
         but = findViewById(R.id.button);
         text = findViewById(R.id.text);
 
-        /*but.setOnClickListener(v -> {
-            value++;
-            text.setText(value);
-        });*/
+        but.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                value++;
+                text.setText(String.valueOf(value));
+            }
+        });
 
     }
 
